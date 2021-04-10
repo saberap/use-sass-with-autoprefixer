@@ -1,0 +1,155 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+/// @author Saber Alipour
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'dana', 'tahoma', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+   'Monaco', monospace !default;
+
+/// Heading color
+/// @type Color
+$heading-color: #3f434a !default;
+
+///Body Light color
+/// @type Color
+$body-light-color: #8a9099 !default;
+
+///Body Dark color
+/// @type Color
+$body-dark-color: #595f69 !default;
+
+//Layout Body color
+///@type Color
+$layout-color: #e5e5e5;
+///Grey color
+/// @type Color
+$grey-color: #c6c9cc !default;
+
+///Border color
+/// @type Color
+$border-color: #e8e9eb !default;
+
+///Background color
+/// @type Color
+$bg-color: #f8f8f8 !default;
+
+///White color
+/// @type Color
+$white-color: #ffffff !default;
+
+///Primary color
+/// @type Color
+$primary-color: #304ffd !default;
+$primary-color-dark: #283896 !default;
+
+///Primary color
+/// @type Color
+$secondary-color: #e9f3f5 !default;
+$secondary-color-dark: #d1f3fa !default;
+
+///Orange color
+/// @type Color
+$orange-color: #ff965d !default;
+
+///Red color
+/// @type Color
+$red-color: #fd7972 !default;
+
+///Yellow color
+/// @type Color
+$yellow-color: #ffd240 !default;
+
+///Blue color
+/// @type Color
+$blue-color: #22cce2 !default;
+
+///Green color
+/// @type Color
+$green-color: #49c96d !default;
+
+///Purple color
+/// @type Color
+$purple-color: #b656eb !default;
+
+///Pink color
+/// @type Color
+$pink-color: #f9ddc5 !default;
+
+///Dark Green color
+/// @type Color
+$dark-green-color: #20a144 !default;
+
+///Dark Orange color
+/// @type Color
+$dark-orange-color: #e56e19 !default;
+
+///Dark Yellow color
+/// @type Color
+$dark-yellow-color: #e5b823 !default;
+
+///Dark Red color
+/// @type Color
+$dark-red-color: #f05c54 !default;
+
+///Dark Blue color
+/// @type Color
+$dark-blue-color: #009eb2 !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+//Heading Size
+///@type Size
+$h1-size: 3.5rem;
+$h2-size: 3rem;
+$h3-size: 2.25rem;
+$h4-size: 1.75rem;
+$h5-size: 1.25rem;
+$h6-size: 1.125rem;
+
+//Typography Size
+///@type Size
+$regular-size: 0.875rem;
+$small-size: 0.625rem;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+   'small': 320px,
+   'medium': 768px,
+   'large': 1024px,
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///$base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+///Border-radius of elements are here
+/// @type Size
+$card-border-radius: 15px;
+$button-border-radius: 10px;
+$input-border-radius: 15px;
+$table-border-radius: 15px;
+
+///Media Screen Size
+///@type Size
+$mediaBreackpoint: (
+   'small-mobile': 320px,
+   'mobile': 480px,
+   'small-tablet': 600px,
+   'tablet': 1024px,
+) !default;
+
+///Shadows
+///@type Shadow
+$shadow-bg: -4px 8px 24px rgba(44, 63, 88, 0.02);

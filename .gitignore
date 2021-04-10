@@ -1,0 +1,5 @@
+#Package manager
+node_modules
+
+#yarn 
+yarn.lock
